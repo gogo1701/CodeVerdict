@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Project Path="CodeVerdict.Application/CodeVerdict.Application.csproj" Id="f972095d-7404-4461-9d7a-1ec97a0b14cb" />
+  <Project Path="CodeVerdict.Domain/CodeVerdict.Domain.csproj" Id="72072e94-35ad-44c4-8853-f05e6600dcef" />
+  <Project Path="CodeVerdict.Infrastructure/CodeVerdict.Infrastructure.csproj" Id="ab83bf1e-a45e-4bc9-8f01-4c6333a20f08" />
+  <Project Path="CodeVerdict.Judge/CodeVerdict.Judge.csproj" Id="36b1f237-f7cf-4860-8f34-7451a5702c64" />
+  <Project Path="CodeVerdict.Web/CodeVerdict.Web.csproj" Id="84147d5e-84c7-4b72-9bd4-dd68638274bf" />
+</Solution>
