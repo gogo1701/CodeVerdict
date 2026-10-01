@@ -4,4 +4,8 @@
   <Project Path="CodeVerdict.Infrastructure/CodeVerdict.Infrastructure.csproj" Id="ab83bf1e-a45e-4bc9-8f01-4c6333a20f08" />
   <Project Path="CodeVerdict.Judge/CodeVerdict.Judge.csproj" Id="36b1f237-f7cf-4860-8f34-7451a5702c64" />
   <Project Path="CodeVerdict.Web/CodeVerdict.Web.csproj" Id="84147d5e-84c7-4b72-9bd4-dd68638274bf" />
+  <Project Path="tests/CodeVerdict.Domain.Tests/CodeVerdict.Domain.Tests.csproj" />
+  <Project Path="tests/CodeVerdict.Application.Tests/CodeVerdict.Application.Tests.csproj" />
+  <Project Path="tests/CodeVerdict.Judge.Tests/CodeVerdict.Judge.Tests.csproj" />
+  <Project Path="tests/CodeVerdict.Web.Tests/CodeVerdict.Web.Tests.csproj" />
 </Solution>

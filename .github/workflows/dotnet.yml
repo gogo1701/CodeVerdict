@@ -1,0 +1,22 @@
+name: .NET
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Restore
+        run: dotnet restore CodeVerdict.slnx
+      - name: Build
+        run: dotnet build CodeVerdict.slnx --no-restore
+      - name: Test
+        run: dotnet test CodeVerdict.slnx --no-build --no-restore
+      - name: Verify formatting
+        run: dotnet format CodeVerdict.slnx --verify-no-changes --no-restore
